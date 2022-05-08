@@ -18,7 +18,7 @@ const Todo = ({ category, name, price,description,rate, id,image }) => {
       <p>Rate : {rate.rate}- Count : {rate.count}</p>
       </div>
       <img src={image}></img>
-      {/* <button onClick={() => handleDelete(id)}>DELETE</button> */}
+      
     </div>
   );
 };
